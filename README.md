@@ -6,3 +6,5 @@
 ### docker를 이용한 pytest
   - [관련 세팅? 정리](https://github.com/kangheeyong/TEST-jenkins/issues/1)
 
+### github and Jenkins webhook
+  - [세팅 방법?](https://github.com/kangheeyong/TEST-jenkins/issues/3)
