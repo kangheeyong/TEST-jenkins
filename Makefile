@@ -3,6 +3,9 @@ clean:
 	-find -name "*.swp" -exec rm {} \;
 	-find -name "*.pyc" -exec rm {} \;
 
+docker_install:
+	curl -fsSL https://get.docker.com/ | sudo sh
+
 docker_run: 
 	- mkdir ~/jenkins_home
 	docker build -t jeiger/jenkins:lts .
